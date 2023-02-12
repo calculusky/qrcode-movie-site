@@ -1,5 +1,5 @@
 const getQrcodeFromServer = () => {
-  const serverUrl = 'http://localhost:3000';
+  const serverUrl = 'https://qrcode-movie-site.onrender.com';
 
   fetch(`${serverUrl}/qrcodes`)
     .then((resObj) => resObj.json())

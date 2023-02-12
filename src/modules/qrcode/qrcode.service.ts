@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as Qrcode from 'qrcode';
-import { generateRandomNumList } from 'src/utils';
+import { generateRandomNumList } from './../../utils';
 
 @Injectable()
 export class QrcodeService {
