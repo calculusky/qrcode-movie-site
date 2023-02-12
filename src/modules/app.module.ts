@@ -4,7 +4,11 @@ import { ConfigModule } from '@nestjs/config';
 import { MovieModule } from './movie/movie.module';
 
 @Module({
-  imports: [ConfigModule.forRoot({ isGlobal: true }), QrcodeModule, MovieModule],
+  imports: [
+    ConfigModule.forRoot({ isGlobal: true }),
+    QrcodeModule,
+    MovieModule,
+  ],
   controllers: [],
   providers: [],
 })
