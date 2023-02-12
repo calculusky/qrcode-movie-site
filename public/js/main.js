@@ -1,5 +1,5 @@
 const getQrcodeFromServer = () => {
-  const serverUrl = 'https://qrcode-movie-site.onrender.com';
+  const serverUrl = 'https://wombat-tie.cyclic.app';
 
   fetch(`${serverUrl}/qrcodes`)
     .then((resObj) => resObj.json())
