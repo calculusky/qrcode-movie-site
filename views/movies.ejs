@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Movies</title>
+  </head>
+  <body>
+    <div class="movie-heading">Movie List</div>
+    <div class="movies-container">
+      <% for(let movie of movies){ %>
+      <div class="movie-card">
+        <div class="movie-title">Title: <%= movie.title %></div>
+        <div class="movie-images">
+          <% for(let image of movie.images){ %>
+          <div class="single-image-container">
+            <img class="movie-single-image" src="<%= image %>" />
+          </div>
+          <% } %>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

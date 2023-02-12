@@ -1,0 +1,57 @@
+.qrcode-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.qrcode-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#qrcode img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.movie-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.movies-container {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: #ddd;
+  margin-bottom: 4rem;
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.movie-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.single-image-container {
+  padding: 2rem;
+}
+.movie-single-image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 0.3rem;
+}
