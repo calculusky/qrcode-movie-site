@@ -4,7 +4,7 @@
 
 This is a simple site that generates qrcode every 10 seconds that encodes link to some random movies.
 
-**Live URL:**
+**Live URL: [https://wombat-tie.cyclic.app](https://wombat-tie.cyclic.app 'https://wombat-tie.cyclic.app')**
 
 ### Tech/Tools Used
 
