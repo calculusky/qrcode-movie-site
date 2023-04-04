@@ -1,6 +1,6 @@
 ## Description
 
-**Qrcode Movie Site**
+**Qrcode Movie Site***
 
 This is a simple site that generates qrcode every 10 seconds that encodes link to some random movies.
 
